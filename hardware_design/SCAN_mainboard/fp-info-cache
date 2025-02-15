@@ -1,4 +1,4 @@
-24225842587931327
+24227582137255542
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89907,6 +89907,13 @@ ED120/2DS
 0
 2
 2
+SCAN_footprints
+CONN_SD-43650-001_10_MOL
+
+436501000 
+0
+10
+10
 SCAN_footprints
 DIP794W45P254L1969H508Q16
 

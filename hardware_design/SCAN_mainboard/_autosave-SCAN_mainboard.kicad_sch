@@ -6964,7 +6964,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 181.61) (xy 41.91 181.61)
+			(xy 52.07 179.07) (xy 41.91 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6994,7 +6994,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 179.07) (xy 52.07 179.07)
+			(xy 41.91 181.61) (xy 52.07 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8041,7 +8041,7 @@
 		(uuid "9651fbce-6a30-4536-b1b7-d337d2a2d7ea")
 	)
 	(label "I2C_SDA"
-		(at 52.07 181.61 180)
+		(at 52.07 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8206,7 +8206,7 @@
 		(uuid "c3a45582-7037-458d-9591-b1a942225f4e")
 	)
 	(label "I2C_SCL"
-		(at 52.07 179.07 180)
+		(at 52.07 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
