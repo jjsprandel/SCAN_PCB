@@ -1,4 +1,4 @@
-24224087132213117
+24234411471375990
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89901,12 +89901,33 @@ BQ25798RQMR
 29
 29
 SCAN_footprints
+103AT2
+103AT-2-1
+Thermistor
+0
+2
+2
+SCAN_footprints
+CAPMP7.6X4.3_3.1N_KEM
+
+T491D226K010AT 
+0
+2
+2
+SCAN_footprints
 CONN_ED120_2DS_OST
 
 ED120/2DS 
 0
 2
 2
+SCAN_footprints
+CONN_SD-43650-001_10_MOL
+
+436501000 
+0
+10
+10
 SCAN_footprints
 DIP794W45P254L1969H508Q16
 
@@ -89949,6 +89970,13 @@ IHLP3232DZER2R2M11
 0
 2
 2
+SCAN_footprints
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
 SCAN_footprints
 PG-TSOP6-6-4_INF
 
@@ -90019,6 +90047,20 @@ USB4110-GF-A
 0
 16
 16
+SCAN_footprints
+VSSOP8_DGN_TEX
+
+TLV76733DGNR 
+0
+9
+9
+SCAN_footprints
+WE-LHMI_7030_705048
+WE-LHMI_7030/705048
+Inductor
+0
+2
+2
 SCAN_footprints
 X2SON2_DPL_TEX
 

@@ -985,7 +985,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1002,7 +1002,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDREF"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1028,7 +1028,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1046,10 +1046,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1060,7 +1096,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1535,71 +1571,6 @@
 		(uuid "9bf0cded-57e1-40cf-8435-d6e8215bafee")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03f3b937-6617-45d2-a627-5925f6a84d64")
-		(property "Reference" "#PWR044"
-			(at 215.9 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 215.9 152.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c198c1f-c9f1-45f1-825c-acbef57981ed")
-		)
-		(instances
-			(project "SCAN"
-				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_Expansion:PCF8574")
 		(at 215.9 127 0)
 		(unit 1)
@@ -1608,7 +1579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29085814-1dd2-4820-a53a-d205b74ee529")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 224.282 144.78 0)
 			(effects
 				(font
@@ -1704,7 +1675,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f879b1b-9f6e-4a26-a45b-e6324d3ec0fc")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 262.89 140.97 0)
 			(effects
 				(font
@@ -1736,7 +1707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 262.89 124.46 0)
 			(effects
 				(font
@@ -1790,7 +1761,73 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "J9")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 215.9 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470395be-0c62-4206-bf31-def6e68e30aa")
+		(property "Reference" "#PWR089"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4c273b-7d1e-441f-8233-dda86808559b")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1806,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a1c00c9-1082-4a4a-a8b2-d23ea30663cf")
-		(property "Reference" "R6"
+		(property "Reference" "R61"
 			(at 168.91 129.5399 0)
 			(effects
 				(font
@@ -1860,7 +1897,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "R6")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa7371cf-33e3-4050-8383-048065c4ebeb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR087"
 			(at 166.37 129.54 0)
 			(effects
 				(font
@@ -1926,7 +1963,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "#PWR047")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1941,7 +1978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbb02ea8-7178-4a7f-a834-dd749be472e0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR088"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -1992,7 +2029,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/b4a44b35-f08f-4be2-8663-ffc281f34c59"
-					(reference "#PWR042")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)

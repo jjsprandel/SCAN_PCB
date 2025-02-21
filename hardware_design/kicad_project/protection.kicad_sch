@@ -1402,6 +1402,18 @@
 		)
 		(uuid "fd2efb6c-e501-4c5c-aae2-6060df99f0dd")
 	)
+	(text "USB Protection"
+		(exclude_from_sim no)
+		(at 204.724 61.214 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 7.62 7.62)
+				(thickness 0.9525)
+			)
+		)
+		(uuid "f85fa300-74e3-4ee0-a084-e43784cbd6ca")
+	)
 	(hierarchical_label "USB_CC1"
 		(shape input)
 		(at 86.36 113.03 180)
@@ -1471,7 +1483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1176ce2b-503a-4f6f-9462-6d567ede94e6")
-		(property "Reference" "D1"
+		(property "Reference" "D14"
 			(at 100.584 132.588 90)
 			(effects
 				(font
@@ -1577,7 +1589,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "D1")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -1593,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2212d557-9f3b-4131-a8f7-a601447853c3")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR090"
 			(at 101.6 208.28 0)
 			(effects
 				(font
@@ -1643,7 +1655,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "#PWR069")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1658,7 +1670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3005c607-3b92-4674-81c5-08cd03ab7d07")
-		(property "Reference" "D2"
+		(property "Reference" "D15"
 			(at 109.474 126.492 90)
 			(effects
 				(font
@@ -1764,7 +1776,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "D2")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "308ad999-ff52-42f6-a142-9fabc40f8d7a")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 166.37 142.2399 0)
 			(effects
 				(font
@@ -1849,7 +1861,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "U5")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f8e25df-5b18-4038-91d9-4a2b6b044f6c")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR092"
 			(at 162.56 158.75 0)
 			(effects
 				(font
@@ -1915,7 +1927,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "#PWR076")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63831f5e-7ed0-4f9c-9288-056490e75ea6")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 99.06 193.802 90)
 			(effects
 				(font
@@ -1989,7 +2001,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f93c7b64-be63-4ea7-94cd-902c3bd277c5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR091"
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -2054,7 +2066,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/a49f7a5e-6d61-468f-8fb7-df91262cabfc"
-					(reference "#PWR04")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)

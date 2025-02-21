@@ -1,0 +1,242 @@
+(footprint "WE-LHMI_7030_705048"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WE-LHMI_7030/705048")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -7.0656 -4.4277 0)
+		(layer "F.SilkS")
+		(uuid "08cc32f4-cae2-4c87-a730-52d144fcffc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WE-LHMI_7030/705048"
+		(at -7.0656 -4.4277 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "96adeb55-f266-4ac1-8c49-ec2b2539c006")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e87579f7-3e27-4f76-bb41-720198797ca8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "932c5f01-cf31-4a0a-a1b6-a93cd4280792")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a3e0456-aeb9-4fb0-971d-56d76a0eb4ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc22b755-ec11-4712-866b-d1e1c3a7febe")
+	)
+	(fp_line
+		(start -3.3 -2)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d4a1656-f8db-4f5a-8d42-e3a857d1f4ce")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23953a5b-5da7-4ab2-9d5c-a21db0529bf6")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de8f56ec-8218-4091-9258-42a328cc9316")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d5bee8f-2b90-4416-a473-be171775b77c")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end 3.3 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e324d20a-8b82-42ed-af32-4f1ce5fdda60")
+	)
+	(fp_line
+		(start -5 -4)
+		(end -5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81bc307f-c402-4ada-bf94-b601273a72a2")
+	)
+	(fp_line
+		(start -5 4)
+		(end 5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e20fa53e-802f-4967-af3d-d41e7430c6e0")
+	)
+	(fp_line
+		(start 5 -4)
+		(end -5 -4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "109d1b40-cf1b-4b7e-bcd0-f0bbf85b539c")
+	)
+	(fp_line
+		(start 5 4)
+		(end 5 -4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c560c306-0e91-4a82-a46e-67798790e727")
+	)
+	(fp_line
+		(start -3.3 -3.3)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c7c30f9-7448-4392-8553-c8cc99e72e74")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "448dc42b-496d-4c15-a668-38b762efc7cb")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "848544aa-b408-44ff-9538-88fc34e6e109")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca25763c-5d74-4e40-943a-f1ada1b94529")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.0656 -4.4277 0)
+		(layer "F.Fab")
+		(uuid "ec43ace7-8f22-41df-86ce-c302799c9d7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.75 0)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4200748f-3e28-4d6b-9a50-593eeb785892")
+	)
+	(pad "2" smd rect
+		(at 2.75 0)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5db9aa61-1106-43ef-93a9-df8f2b6a2da8")
+	)
+	(model "${KICAD_3DMODEL_SCAN}/3d_models/74437349047.stp"
+		(offset
+			(xyz 0 0 2.499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)
