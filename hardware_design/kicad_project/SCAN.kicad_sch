@@ -5872,6 +5872,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" "ESP32-C6-WROOM-1-N8"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Espressif Systems"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "2baf1144-16aa-4f39-b0ee-88af154c1d41")
 		)
@@ -6111,6 +6129,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "137cef37-7a85-4109-9ee1-db378730b654")
 		)
@@ -6181,6 +6208,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fcd8947-ae45-4497-a790-fc9ee77e3dc7")
 		)
@@ -6240,6 +6276,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -6383,6 +6428,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "899f8990-4edd-4471-8fc6-0c8038cff395")
 		)
@@ -6444,6 +6498,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 318.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 318.77 151.13 0)
 			(effects
 				(font
@@ -6853,6 +6916,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 347.98 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
@@ -7178,6 +7250,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93aa0f25-d40c-4613-a03d-e67e2ed07adb")
 		)
@@ -7438,6 +7519,15 @@
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
 			(at 29.21 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,6 +7836,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -8089,6 +8188,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43e32e7f-bc78-494a-a9ce-1fcc636360da")
 		)
@@ -8152,6 +8260,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 347.98 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 347.98 214.63 0)
 			(effects
 				(font
@@ -8420,6 +8537,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c4fad61-6594-4a31-975f-56ff6674e120")
 		)
@@ -8613,6 +8739,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -8824,6 +8959,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 303.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f0050aa-97a7-43f0-902a-cec0b54d7f75")
 		)
@@ -8919,6 +9063,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 355.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
@@ -8976,6 +9129,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 355.6 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" ""
 			(at 355.6 214.63 0)
 			(effects
 				(font
@@ -9114,6 +9276,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFR_PN" ""
+			(at 381 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61179483-d456-4c05-9b12-0d24b9df10fc")
 		)
@@ -9153,7 +9324,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "auto_download.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/auto_download.kicad_sch"
 			(at 121.92 246.9646 0)
 			(effects
 				(font
@@ -9232,7 +9403,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb_power.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/usb_power.kicad_sch"
 			(at 67.31 102.1846 0)
 			(effects
 				(font
@@ -9351,7 +9522,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "display_and_rgb.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/display_and_rgb.kicad_sch"
 			(at 365.76 127.5846 0)
 			(effects
 				(font
@@ -9450,7 +9621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "logic_power.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/logic_power.kicad_sch"
 			(at 146.05 36.1446 0)
 			(effects
 				(font
@@ -9519,7 +9690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "nfc.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/nfc.kicad_sch"
 			(at 300.99 102.1846 0)
 			(effects
 				(font
@@ -9618,7 +9789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "protection.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/protection.kicad_sch"
 			(at 20.32 258.3946 0)
 			(effects
 				(font
@@ -9707,7 +9878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb_uart.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/usb_uart.kicad_sch"
 			(at 85.09 239.3446 0)
 			(effects
 				(font
@@ -9806,7 +9977,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "keypad.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/keypad.kicad_sch"
 			(at 339.09 55.1946 0)
 			(effects
 				(font
@@ -9875,7 +10046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_management.kicad_sch"
+		(property "Sheetfile" "${KIPRJMOD}/schematic/power_management.kicad_sch"
 			(at 102.87 64.0846 0)
 			(effects
 				(font

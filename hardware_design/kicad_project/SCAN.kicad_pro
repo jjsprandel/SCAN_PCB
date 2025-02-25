@@ -641,10 +641,10 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
