@@ -1,4 +1,4 @@
-24234411471375990
+24236271654896186
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89971,13 +89971,6 @@ IHLP3232DZER2R2M11
 2
 2
 SCAN_footprints
-MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
-0
-0
-0
-SCAN_footprints
 PG-TSOP6-6-4_INF
 
 BSL308PEH6327XTSA1 
@@ -90040,6 +90033,20 @@ TE_282856-2
 0
 2
 2
+SCAN_footprints
+TP_5010
+
+
+0
+1
+1
+SCAN_footprints
+TP_5011
+
+
+0
+1
+1
 SCAN_footprints
 USB4110-GF-A_GCT
 
