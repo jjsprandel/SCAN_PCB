@@ -12,6 +12,8 @@
         "stdio.h": "c",
         "semphr.h": "c",
         "firebase_http_client.h": "c",
-        "firebase_utils.h": "c"
+        "firebase_utils.h": "c",
+        "cjson_utils.h": "c"
     },
+    "idf.pythonInstallPath": "/usr/bin/python3",
 }

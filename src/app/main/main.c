@@ -145,7 +145,7 @@ void state_control_task(void *pvParameter) {
 
 
                 if (database_task_handle == NULL) {
-                    const char *user_id = "5387541";
+                    const char *user_id = "6942069420";
                     ESP_LOGI(TAG, "Creating check-in task");
                     xTaskCreate(check_in_user_task, "CHECK IN TASK", 1024 * 12, (void *)user_id, 8, &database_task_handle);
                 }
