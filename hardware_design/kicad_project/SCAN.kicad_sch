@@ -5,7 +5,7 @@
 	(uuid "888b7abf-3697-4f84-b8b9-46ec94b2d60e")
 	(paper "B")
 	(title_block
-		(title "SCAN PCB")
+		(title "SCAN Schematic")
 		(date "2025-02-25")
 		(rev "1.2")
 		(company "Senior Design Group 35")
@@ -197,7 +197,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J7"
+			(property "Reference" "J1"
 				(at 0 33.02 0)
 				(effects
 					(font
@@ -213,7 +213,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SCAN_footprints:USB4110-GF-A_GCT"
+			(property "Footprint" "SCAN_footprints:HRO_TYPE-C-31-M-12"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -233,6 +233,15 @@
 			)
 			(property "Description" "USB Full-Featured Type-C Receptacle connector"
 				(at 0 40.132 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR_PN" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -461,78 +470,6 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -38.1 90)
-					(length 8.89)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -38.1 90)
-					(length 8.89)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -38.1 90)
-					(length 8.89)
-					(name "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -38.1 90)
-					(length 8.89)
-					(name "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 -38.1 90)
 					(length 8.89)
 					(name "GND"
@@ -542,25 +479,7 @@
 							)
 						)
 					)
-					(number "A1-B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -38.1 90)
-					(length 8.89)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12-B1"
+					(number "A1_B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -578,7 +497,7 @@
 							)
 						)
 					)
-					(number "A4-B9"
+					(number "A4_B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -659,6 +578,24 @@
 					)
 				)
 				(pin passive line
+					(at -6.35 -38.1 90)
+					(length 8.89)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1_A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 19.05 16.51 180)
 					(length 8.89)
 					(name "VBUS"
@@ -668,7 +605,7 @@
 							)
 						)
 					)
-					(number "A9-B4"
+					(number "B4_A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -741,6 +678,78 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -38.1 90)
+					(length 8.89)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -38.1 90)
+					(length 8.89)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -38.1 90)
+					(length 8.89)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -38.1 90)
+					(length 8.89)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6907,6 +6916,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" "C5366877"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "2baf1144-16aa-4f39-b0ee-88af154c1d41")
 		)
@@ -7148,6 +7166,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3884a176-db81-4a8e-a430-a6b72fe98833")
 		)
@@ -7208,6 +7253,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 344.17 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 344.17 215.9 0)
 			(effects
 				(font
@@ -7283,6 +7337,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -7370,6 +7433,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fcd8947-ae45-4497-a790-fc9ee77e3dc7")
 		)
@@ -7433,6 +7505,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 358.14 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 358.14 205.74 0)
 			(effects
 				(font
@@ -7506,6 +7587,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -7658,6 +7748,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "899f8990-4edd-4471-8fc6-0c8038cff395")
 		)
@@ -7736,6 +7835,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 318.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7a05e92-3d14-4151-8fd5-6308c64f3798")
 		)
@@ -7799,6 +7907,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
 			(at 250.19 229.87 0)
 			(effects
 				(font
@@ -8469,6 +8604,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b79477bd-93f9-4c7b-b087-c2f2d75a89e2")
 		)
@@ -8537,6 +8699,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 237.49 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 237.49 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 237.49 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "885c9499-fd72-4d10-a7a9-117f8f9bacf5")
 		)
@@ -8597,6 +8786,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 194.31 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C238127"
+			(at 194.31 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5011"
+			(at 194.31 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
 			(at 194.31 243.84 0)
 			(effects
 				(font
@@ -8738,6 +8954,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 345.44 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9678a1bd-d249-493e-b6a5-6f1e16792773")
 		)
@@ -8803,6 +9028,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -9146,6 +9380,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" "C238127"
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5011"
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a664e32-922f-4654-8bb7-1b50e98e5535")
 		)
@@ -9184,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SCAN_footprints:USB4110-GF-A_GCT"
+		(property "Footprint" "SCAN_footprints:HRO_TYPE-C-31-M-12"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -9211,7 +9472,25 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "TYPE-C-31-M-12"
+			(at 29.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C165948"
+			(at 29.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Korean Hroparts Elec"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -9232,13 +9511,13 @@
 		(pin "B7"
 			(uuid "84a07e56-c397-4bb4-8e94-e11087874292")
 		)
-		(pin "A9-B4"
+		(pin "B1_A12"
 			(uuid "2221bdc9-3f11-4ade-bbbe-4d4cc19af958")
 		)
-		(pin "A12-B1"
+		(pin "B4_A9"
 			(uuid "479133d8-e121-446a-b2d6-310d7073db77")
 		)
-		(pin "A1-B12"
+		(pin "A1_B12"
 			(uuid "a3c193fc-e1e7-4d06-8140-eb99905c6bd1")
 		)
 		(pin "A5"
@@ -9253,19 +9532,19 @@
 		(pin "A6"
 			(uuid "944094bb-9b18-4ac0-a719-556f9348776e")
 		)
-		(pin "A4-B9"
+		(pin "A4_B9"
 			(uuid "161ae5fc-d4bc-471e-a336-3aec66dddf44")
 		)
-		(pin "15"
+		(pin "S3"
 			(uuid "eb01b93b-4258-47a8-a21e-24e8ca6535e4")
 		)
-		(pin "17"
+		(pin "S1"
 			(uuid "e35ad3f1-3537-4ecf-bd0a-2707efecb37f")
 		)
-		(pin "18"
+		(pin "S2"
 			(uuid "ba6569dc-3d35-4e5b-96f3-b2ea4f435dff")
 		)
-		(pin "16"
+		(pin "S4"
 			(uuid "8442a476-0f65-46d9-b090-b783efc200fe")
 		)
 		(instances
@@ -9531,6 +9810,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 217.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 217.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 217.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bfb9199-9ea3-4639-bd4f-1abfbbf71571")
 		)
@@ -9598,6 +9904,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -9877,6 +10192,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 359.41 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b12393eb-041b-46a4-ba1f-0f2c97369132")
 		)
@@ -10010,6 +10334,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -10286,6 +10619,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 205.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 205.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 205.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f38db90b-35bf-4960-bea9-b6d619606460")
 		)
@@ -10346,6 +10706,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 196.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" " C2906765"
+			(at 196.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "5010"
+			(at 196.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
 			(at 196.85 229.87 0)
 			(effects
 				(font
@@ -10421,6 +10808,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -10631,6 +11027,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -10851,6 +11256,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 303.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f0050aa-97a7-43f0-902a-cec0b54d7f75")
 		)
@@ -11009,6 +11423,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part Number" ""
+			(at 336.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b78d0ce8-caa1-47b1-86c6-954f331a2a8f")
 		)
@@ -11158,6 +11581,15 @@
 			)
 		)
 		(property "MFR_PN" ""
+			(at 381 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
 			(at 381 167.64 0)
 			(effects
 				(font

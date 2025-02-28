@@ -1,4 +1,4 @@
-24236271654896186
+24239753438004532
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89957,6 +89957,13 @@ ESP32-C6-WROOM-1-N8
 37
 37
 SCAN_footprints
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+SCAN_footprints
 IC_BQ25798RQMR
 
 
@@ -90075,6 +90082,13 @@ ESD441DPLR
 0
 2
 2
+SCAN_footprints
+custom_net_tie
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+0
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
