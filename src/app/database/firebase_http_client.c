@@ -22,6 +22,8 @@
 #include "esp_http_client.h"
 #include "firebase_utils.h"
 
+#include "cJSON_Utils.h"
+
 
 #define FIREBASE_BASE_URL "https://scan-9ee0b-default-rtdb.firebaseio.com/users/"
 #define MAX_HTTP_RECV_BUFFER 512
@@ -149,6 +151,21 @@ int firebase_https_request_get(char *url, char *response, size_t response_size)
         // Safely copy the response to the user-provided buffer
         strncpy(response, local_response_buffer, response_size - 1);
         response[response_size - 1] = '\0';
+
+        // Parse and print the JSON response
+        cJSON *json = cJSON_Parse(response);
+        if (json == NULL) {
+            ESP_LOGE(TAG, "Failed to parse JSON response");
+        } else {
+            char *json_string = cJSON_Print(json);
+            if (json_string == NULL) {
+                ESP_LOGE(TAG, "Failed to print JSON response");
+            } else {
+                ESP_LOGI(TAG, "JSON Response:\n%s", json_string);
+                free(json_string);
+            }
+            cJSON_Delete(json);
+        }
 
     } else {
         ESP_LOGE(TAG, "HTTP GET request failed: %s", esp_err_to_name(err));
