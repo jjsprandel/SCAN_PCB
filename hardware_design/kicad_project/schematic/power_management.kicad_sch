@@ -7419,7 +7419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 316.23 80.01 0)
 			(effects
 				(font
@@ -8183,7 +8183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 325.12 80.01 0)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "8330c330-bbbe-410b-8f9a-a136f06e7fe8")
 		(property "Reference" "NT1"
@@ -11699,7 +11699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SCAN_footprints:custom_net_tie"
 			(at 207.01 233.68 0)
 			(effects
 				(font
