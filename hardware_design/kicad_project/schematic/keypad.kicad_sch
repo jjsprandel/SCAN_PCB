@@ -1651,6 +1651,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c14d6304-1e62-43bf-9558-99c991af29c4")
 		)
@@ -1771,6 +1780,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 262.89 124.46 0)
 			(effects
 				(font
@@ -1943,6 +1961,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 166.37 130.81 0)
 			(effects
 				(font

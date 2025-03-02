@@ -6925,6 +6925,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "2baf1144-16aa-4f39-b0ee-88af154c1d41")
 		)
@@ -7193,6 +7202,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3884a176-db81-4a8e-a430-a6b72fe98833")
 		)
@@ -7270,6 +7288,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 344.17 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9f0302f-3da1-4260-809e-608b6b2e71ed")
 		)
@@ -7336,7 +7363,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "CC0402KRX7R9BB104"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -7345,7 +7372,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C131394"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -7442,6 +7487,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fcd8947-ae45-4497-a790-fc9ee77e3dc7")
 		)
@@ -7522,6 +7576,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 358.14 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3658ed22-2958-4066-b3ea-51bd5b5cf3d5")
 		)
@@ -7586,7 +7649,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "WJ128V-5.0-2P"
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -7595,7 +7658,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C8269"
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ningbo Kangnex Elec"
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "A98355-ND"
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -7739,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM155R61E105KA12D"
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -7748,7 +7829,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C77009"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -7836,6 +7935,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 318.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 318.77 151.13 0)
 			(effects
 				(font
@@ -7934,6 +8042,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 250.19 229.87 0)
 			(effects
 				(font
@@ -8631,6 +8748,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b79477bd-93f9-4c7b-b087-c2f2d75a89e2")
 		)
@@ -8726,6 +8852,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 237.49 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "885c9499-fd72-4d10-a7a9-117f8f9bacf5")
 		)
@@ -8813,6 +8948,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 194.31 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 194.31 243.84 0)
 			(effects
 				(font
@@ -8963,6 +9107,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 345.44 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9678a1bd-d249-493e-b6a5-6f1e16792773")
 		)
@@ -9027,7 +9180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "WJ128V-5.0-2P"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -9036,7 +9189,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C8269"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ningbo Kangnex Elec"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "A98355-ND"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -9407,6 +9578,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a664e32-922f-4654-8bb7-1b50e98e5535")
 		)
@@ -9491,6 +9671,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "Korean Hroparts Elec"
+			(at 29.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -9837,6 +10026,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 217.17 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bfb9199-9ea3-4639-bd4f-1abfbbf71571")
 		)
@@ -9913,6 +10111,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -10201,6 +10408,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 359.41 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b12393eb-041b-46a4-ba1f-0f2c97369132")
 		)
@@ -10343,6 +10559,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -10646,6 +10871,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 205.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f38db90b-35bf-4960-bea9-b6d619606460")
 		)
@@ -10741,6 +10975,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 196.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2caea0f-d1d1-4b35-956f-c3b05ade73dd")
 		)
@@ -10807,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM21BZ71E106KE15L"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -10816,7 +11059,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" " C237493"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -11044,6 +11305,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c65b17d7-8c8e-4584-9e42-ff77eb7e0a69")
 		)
@@ -11247,7 +11517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "0436501000"
 			(at 303.53 40.64 0)
 			(effects
 				(font
@@ -11257,6 +11527,24 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 303.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 303.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "23-0436501000-ND"
 			(at 303.53 40.64 0)
 			(effects
 				(font
@@ -11432,6 +11720,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 336.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b78d0ce8-caa1-47b1-86c6-954f331a2a8f")
 		)
@@ -11580,7 +11877,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "A2541WR-3P"
 			(at 381 167.64 0)
 			(effects
 				(font
@@ -11589,7 +11886,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C225489"
+			(at 381 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 381 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CJT(Changjiang Connectors)"
 			(at 381 167.64 0)
 			(effects
 				(font

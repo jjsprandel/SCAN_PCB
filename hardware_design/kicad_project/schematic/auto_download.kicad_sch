@@ -1158,6 +1158,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8a069536-a348-44df-bf17-29bffde74f68")
 		)
@@ -1204,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RST"
 			(at 237.49 134.62 0)
 			(effects
 				(font
@@ -1239,7 +1248,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "PTS647SM38SMTR2 LFS"
 			(at 237.49 139.7 0)
 			(effects
 				(font
@@ -1249,6 +1258,24 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "PTS647SM38SMTR2LFSCT-ND"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C&K"
 			(at 237.49 139.7 0)
 			(effects
 				(font
@@ -1334,6 +1361,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 205.74 160.02 0)
 			(effects
 				(font
@@ -1431,6 +1467,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 217.17 160.02 0)
 			(effects
 				(font
@@ -1602,6 +1647,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d3c6ccf-ac58-47be-a1da-0e8ba1b22287")
 		)
@@ -1636,7 +1690,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -1671,7 +1725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "PTS647SM38SMTR2 LFS"
 			(at 205.74 109.22 0)
 			(effects
 				(font
@@ -1681,6 +1735,24 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "PTS647SM38SMTR2LFSCT-ND"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C&K"
 			(at 205.74 109.22 0)
 			(effects
 				(font
@@ -1774,6 +1846,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "309292f0-7fa6-465f-9964-a61cd1ae214d")
 		)
@@ -1859,6 +1940,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77caefe9-ed66-47be-bcb0-39e3544dd6dd")
 		)
@@ -1936,6 +2026,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 193.04 160.02 0)
 			(effects
 				(font

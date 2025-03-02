@@ -1970,6 +1970,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5191703-76b1-4ace-ac9e-4c23dbf179ce")
 		)
@@ -2039,7 +2048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM155R71A104KA01D"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -2048,7 +2057,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C71687"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -2192,7 +2219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM188R61C475KAAJD"
 			(at 219.71 100.33 0)
 			(effects
 				(font
@@ -2201,7 +2228,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C86016"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 219.71 100.33 0)
 			(effects
 				(font
@@ -2419,6 +2464,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -2710,6 +2764,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17a88879-097b-4454-a048-7d99f6dec074")
 		)
@@ -2795,6 +2858,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75205695-7655-4f9a-bcf8-901729d78770")
 		)
@@ -2864,7 +2936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM188R61C475KAAJD"
 			(at 179.07 101.6 0)
 			(effects
 				(font
@@ -2873,7 +2945,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C86016"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 179.07 101.6 0)
 			(effects
 				(font
@@ -2971,6 +3061,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "Silicon Labs"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 204.47 149.86 0)
 			(effects
 				(font
@@ -3145,6 +3244,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0e90cdc-7325-4eb1-adbe-1a135e959bcf")
 		)
@@ -3214,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "GRM155R71A104KA01D"
 			(at 210.82 100.33 0)
 			(effects
 				(font
@@ -3223,7 +3331,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C71687"
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 210.82 100.33 0)
 			(effects
 				(font
@@ -3309,6 +3435,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 166.37 114.3 0)
 			(effects
 				(font

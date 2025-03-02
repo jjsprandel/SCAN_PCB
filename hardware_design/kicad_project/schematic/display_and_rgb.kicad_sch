@@ -1634,7 +1634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" " COM-16347"
 			(at 204.47 116.84 0)
 			(effects
 				(font
@@ -1643,7 +1643,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C7433145"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun Electronics"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 204.47 116.84 0)
 			(effects
 				(font
@@ -1728,7 +1746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" " COM-16347"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -1737,7 +1755,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C7433145"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun Electronics"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -2020,7 +2056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" " COM-16347"
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -2029,7 +2065,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C7433145"
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun Electronics"
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -2196,7 +2250,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "1N4448W"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -2205,7 +2259,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C8601"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -2293,6 +2365,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -2652,6 +2733,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7c4d66e-944e-417f-af3a-701ef21eeb57")
 		)
@@ -2732,6 +2822,15 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
+			(at 287.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
 			(at 287.02 165.1 0)
 			(effects
 				(font
