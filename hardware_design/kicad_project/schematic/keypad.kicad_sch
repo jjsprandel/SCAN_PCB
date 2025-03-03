@@ -1951,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "CRCW080510K0FKEAC"
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -1960,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C844814"
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -1970,6 +1970,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 166.37 130.81 0)
 			(effects
 				(font

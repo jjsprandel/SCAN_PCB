@@ -6900,7 +6900,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "37fae632-7566-4710-9681-eec6e7de3e9d")
 		(property "Reference" "R46"
 			(at 338.836 67.31 90)
@@ -6945,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "PA0805JR-470RL"
 			(at 344.17 67.31 0)
 			(effects
 				(font
@@ -6954,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C858567"
 			(at 344.17 67.31 0)
 			(effects
 				(font
@@ -6964,6 +6964,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 344.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 344.17 67.31 0)
 			(effects
 				(font
@@ -7072,7 +7081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "5k"
 			(at 162.56 226.0599 0)
 			(effects
 				(font
@@ -7108,7 +7117,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "CRCW06034K99FKEA"
 			(at 160.02 224.79 0)
 			(effects
 				(font
@@ -7117,7 +7126,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C844793"
 			(at 160.02 224.79 0)
 			(effects
 				(font
@@ -7127,6 +7136,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 160.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 160.02 224.79 0)
 			(effects
 				(font
@@ -9019,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0805JR-072KL"
 			(at 331.47 140.97 0)
 			(effects
 				(font
@@ -9028,7 +9046,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C114748"
 			(at 331.47 140.97 0)
 			(effects
 				(font
@@ -9038,6 +9056,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 331.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 331.47 140.97 0)
 			(effects
 				(font
@@ -9395,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "BSL308PEH6327XTSA1"
 			(at 279.4 120.65 0)
 			(effects
 				(font
@@ -9413,7 +9440,16 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" ""
+		(property "DigiKey Part Number" "BSL308PEH6327XTSA1CT-ND"
+			(at 279.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 279.4 120.65 0)
 			(effects
 				(font
@@ -11139,7 +11175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0805JR-072KL"
 			(at 314.96 140.97 0)
 			(effects
 				(font
@@ -11148,7 +11184,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C114748"
 			(at 314.96 140.97 0)
 			(effects
 				(font
@@ -11158,6 +11194,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 314.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 314.96 140.97 0)
 			(effects
 				(font

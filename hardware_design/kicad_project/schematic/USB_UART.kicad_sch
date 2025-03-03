@@ -1952,7 +1952,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0402JR-071KL"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -1961,7 +1961,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C105637"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -1971,6 +1971,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -2454,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0402FR-0747K5L"
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -2463,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C137974"
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -2473,6 +2482,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -2746,7 +2764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0805JR-070RL"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -2755,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C96345"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -2765,6 +2783,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -2840,7 +2867,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0805JR-070RL"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -2849,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C96345"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -2859,6 +2886,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -3226,7 +3262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "CRCW080510K0FKEAC"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -3235,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C844814"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -3245,6 +3281,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -3425,7 +3470,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" ""
+		(property "MFR_PN" "RC0402FR-0722K1L"
 			(at 166.37 114.3 0)
 			(effects
 				(font
@@ -3434,7 +3479,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "JLCPCB Part Number" "C163478"
 			(at 166.37 114.3 0)
 			(effects
 				(font
@@ -3444,6 +3489,15 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
 			(at 166.37 114.3 0)
 			(effects
 				(font
