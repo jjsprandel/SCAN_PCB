@@ -33,8 +33,8 @@ static char timestamp[21];
 
 // Struct to store user information
 typedef struct {
-    bool active_student;
-    bool check_in_status;
+    char active_student[5];
+    char check_in_status[20];
     char location[64];
     char role[32];
     char passkey[64];
@@ -161,8 +161,8 @@ void check_in_user_task(void *pvParameters) {
     }
 
     // Assign the values to the struct fields
-    user_info->active_student = cJSON_IsTrue(activeStudent_json);
-    user_info->check_in_status = cJSON_IsTrue(checkInStatus_json);
+    strncpy(user_info->active_student, cJSON_GetStringValue(activeStudent_json), sizeof(user_info->active_student) - 1);
+    strncpy(user_info->check_in_status, cJSON_GetStringValue(checkInStatus_json), sizeof(user_info->check_in_status) - 1);
     strncpy(user_info->location, cJSON_GetStringValue(location_json), sizeof(user_info->location) - 1);
     strncpy(user_info->role, cJSON_GetStringValue(role_json), sizeof(user_info->role) - 1);
     strncpy(user_info->passkey, cJSON_GetStringValue(passkey_json), sizeof(user_info->passkey) - 1);
@@ -170,8 +170,8 @@ void check_in_user_task(void *pvParameters) {
     user_info->role[sizeof(user_info->role) - 1] = '\0'; // Ensure null termination
     user_info->passkey[sizeof(user_info->passkey) - 1] = '\0'; // Ensure null termination
 
-    ESP_LOGI(TAG, "user_info.active_student: %d", user_info->active_student);
-    ESP_LOGI(TAG, "user_info.check_in_status: %d", user_info->check_in_status);
+    ESP_LOGI(TAG, "user_info.active_student: %s", user_info->active_student);
+    ESP_LOGI(TAG, "user_info.check_in_status: %s", user_info->check_in_status);
     ESP_LOGI(TAG, "user_info.location: %s", user_info->location);
     ESP_LOGI(TAG, "user_info.role: %s", user_info->role);
     ESP_LOGI(TAG, "user_info.passkey: %s", user_info->passkey);
@@ -180,7 +180,7 @@ void check_in_user_task(void *pvParameters) {
     cJSON_Delete(json);
     ESP_LOGI(TAG, "dre 2");
 
-    if (user_info->active_student)
+    if (strcmp(user_info->active_student, "Yes") == 0)
     {
         // Create a JSON object for the activity log entry
         cJSON *activity_log_json = cJSON_CreateObject();
@@ -196,7 +196,7 @@ void check_in_user_task(void *pvParameters) {
         ESP_LOGI(TAG, "ActivityLogIndex: %s", activityLogIndex);
 
         // Add fields to the JSON object
-        cJSON_AddStringToObject(activity_log_json, "action", user_info->check_in_status ? "Check-Out" : "Check-In");
+        cJSON_AddStringToObject(activity_log_json, "action", (strcmp(user_info->check_in_status, "Checked In")) ? "Check-Out" : "Check-In");
         cJSON_AddStringToObject(activity_log_json, "location", KIOSK_LOCATION);  // Replace with actual location
         cJSON_AddStringToObject(activity_log_json, "timestamp", timestamp); // Replace with actual timestamp
         cJSON_AddStringToObject(activity_log_json, "userId", user_id);
