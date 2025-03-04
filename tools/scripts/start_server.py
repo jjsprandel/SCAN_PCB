@@ -1,9 +1,22 @@
-import serial.tools.list_ports
 import os
 import sys
 import subprocess
 import time
 import argparse
+
+requirements_path = "./tools/config/requirements.txt"
+
+def install_requirements():
+    """Install the packages listed in requirements.txt."""
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", requirements_path])
+    except subprocess.CalledProcessError as e:
+        print(f"Error installing requirements: {e}")
+        sys.exit(1)
+
+install_requirements()
+
+import serial.tools.list_ports
 import psutil  # Import psutil to check for processes using a port
 
 def list_serial_ports():
@@ -143,4 +156,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

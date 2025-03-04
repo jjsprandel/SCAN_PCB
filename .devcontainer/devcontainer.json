@@ -9,7 +9,7 @@
     "mounts": [
         "source=extensionCache,target=/root/.vscode-server/extensions,type=volume"
     ],
-	"initializeCommand": "powershell python start_server.py --non-interactive",
+	"initializeCommand": "python ${localWorkspaceFolder}/tools/scripts/start_server.py --non-interactive",
 	"postCreateCommand": "/bin/bash -c 'echo \"source /opt/esp/entrypoint.sh\" >> ~/.bashrc && echo \"set +e\" >> ~/.bashrc && source ~/.bashrc'",
 	"customizations": {
 		"vscode": {
