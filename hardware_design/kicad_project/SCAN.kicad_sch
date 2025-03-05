@@ -11988,7 +11988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/auto_download.kicad_sch"
+		(property "Sheetfile" "schematic/auto_download.kicad_sch"
 			(at 121.92 246.9646 0)
 			(effects
 				(font
@@ -12067,7 +12067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/usb_power.kicad_sch"
+		(property "Sheetfile" "schematic/usb_power.kicad_sch"
 			(at 67.31 102.1846 0)
 			(effects
 				(font
@@ -12186,7 +12186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/display_and_rgb.kicad_sch"
+		(property "Sheetfile" "schematic/display_and_rgb.kicad_sch"
 			(at 365.76 127.5846 0)
 			(effects
 				(font
@@ -12285,7 +12285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/logic_power.kicad_sch"
+		(property "Sheetfile" "schematic/logic_power.kicad_sch"
 			(at 148.59 36.1446 0)
 			(effects
 				(font
@@ -12354,7 +12354,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/nfc.kicad_sch"
+		(property "Sheetfile" "schematic/NFC.kicad_sch"
 			(at 300.99 102.1846 0)
 			(effects
 				(font
@@ -12453,7 +12453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/protection.kicad_sch"
+		(property "Sheetfile" "schematic/protection.kicad_sch"
 			(at 20.32 258.3946 0)
 			(effects
 				(font
@@ -12542,7 +12542,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/usb_uart.kicad_sch"
+		(property "Sheetfile" "schematic/USB_UART.kicad_sch"
 			(at 85.09 239.3446 0)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/keypad.kicad_sch"
+		(property "Sheetfile" "schematic/keypad.kicad_sch"
 			(at 365.76 74.2446 0)
 			(effects
 				(font
@@ -12710,7 +12710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "${KIPRJMOD}/schematic/power_management.kicad_sch"
+		(property "Sheetfile" "schematic/power_management.kicad_sch"
 			(at 102.87 64.0846 0)
 			(effects
 				(font
