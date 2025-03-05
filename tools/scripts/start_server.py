@@ -3,8 +3,6 @@ import sys
 import subprocess
 import time
 import argparse
-import serial.tools.list_ports
-import psutil
 import platform
 def install_requirements():
     """Install the packages listed in requirements.txt."""
@@ -15,6 +13,10 @@ def install_requirements():
         print(f"Error installing requirements: {e}")
         sys.exit(1)
 install_requirements()
+
+import serial.tools.list_ports
+import psutil
+
 def list_serial_ports():
     """List available serial ports (cross-platform)."""
     ports = serial.tools.list_ports.comports()
