@@ -196,7 +196,7 @@ void check_in_user_task(void *pvParameters) {
         ESP_LOGI(TAG, "ActivityLogIndex: %s", activityLogIndex);
 
         // Add fields to the JSON object
-        cJSON_AddStringToObject(activity_log_json, "action", (strcmp(user_info->check_in_status, "Checked In")) ? "Check-Out" : "Check-In");
+        cJSON_AddStringToObject(activity_log_json, "action", (strcmp(user_info->check_in_status, "Checked In") == 0) ? "Check-Out" : "Check-In");
         cJSON_AddStringToObject(activity_log_json, "location", KIOSK_LOCATION);  // Replace with actual location
         cJSON_AddStringToObject(activity_log_json, "timestamp", timestamp); // Replace with actual timestamp
         cJSON_AddStringToObject(activity_log_json, "userId", user_id);
