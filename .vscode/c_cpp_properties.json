@@ -2,6 +2,7 @@
     "configurations": [
         {
             "name": "ESP32",
+            "compilerPath": "/usr/bin/gcc",
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/esp/idf/components/**",

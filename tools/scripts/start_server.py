@@ -4,14 +4,19 @@ import subprocess
 import time
 import argparse
 import platform
+
 def install_requirements():
     """Install the packages listed in requirements.txt."""
     requirements_path = "./tools/config/requirements.txt"
     try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", requirements_path])
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", "-r", requirements_path],
+            stdout=subprocess.DEVNULL    
+        )
     except subprocess.CalledProcessError as e:
         print(f"Error installing requirements: {e}")
         sys.exit(1)
+
 install_requirements()
 
 import serial.tools.list_ports
@@ -53,9 +58,10 @@ def run_rfc2217_server(serial_port):
             sys.exit(1)
     
     elif platform.system() == "Windows":
+        DETACHED_PROCESS = 0x00000008
         rfc_command = [sys.executable, "esp_rfc2217_server.py", "-v", "-p", "4000", serial_port]
         try:
-            rfc_process = subprocess.Popen(rfc_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            rfc_process = subprocess.Popen(rfc_command, creationflags=DETACHED_PROCESS, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             time.sleep(1)
             if rfc_process.poll() is None:
                 print("RFC2217 server started successfully.\n")
@@ -112,7 +118,7 @@ def main():
     args = parser.parse_args()
     
     if check_and_terminate_port(4000):
-        print("Port 4000 was in use and has been terminated.\n")
+        print("\nPort 4000 was in use and has been terminated.\n")
     else:
         print("Port 4000 is free.\n")
     
@@ -159,9 +165,6 @@ def main():
             run_docker_command(is_flash=True)
         elif args.start_container:
             run_docker_command()
-    
-    time.sleep(15)
 
 if __name__ == "__main__":
     main()
-
