@@ -1,4 +1,4 @@
-# ![Project Logo](docs/logo.png)
+# ![Project Logo](docs/logo/logo.png)
 
 Welcome to the **SCAN** repository! Below, you will find all the necessary information, from hardware design to software documentation.
 
