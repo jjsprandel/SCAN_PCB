@@ -1,0 +1,2172 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "529aa108-a9d8-4d2c-a942-4f0bd6616fc9")
+	(paper "B")
+	(title_block
+		(title "SCAN Schematic")
+		(date "2025-02-25")
+		(rev "1.2")
+		(company "Senior Design Group 35")
+	)
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC847BDW1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847BDW1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847BDW1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847BDW1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BC847BDW1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 219.71 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5057b543-2a50-4cf2-aff2-cdc767d8242c")
+	)
+	(junction
+		(at 185.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "825e2dea-d674-44a7-82af-a7aed1c1678c")
+	)
+	(junction
+		(at 185.42 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881bcfbc-9772-481f-b159-ca0dbf2fabe3")
+	)
+	(junction
+		(at 163.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94dd0641-0489-4b0e-bc0a-e0c723928adc")
+	)
+	(wire
+		(pts
+			(xy 175.26 134.62) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05827723-2543-4b01-a8db-f8015dd0451d")
+	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05aa1455-ca43-4a04-86ae-2d6c159b2bd6")
+	)
+	(wire
+		(pts
+			(xy 163.83 157.48) (xy 163.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a05b8b-44d1-4da1-b45f-52ca79a3384f")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca779c8-395c-43af-ba16-e0f1b2e9d83c")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2f6461-5138-4c9d-ab4e-12f772c47fcc")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3603b4e3-4efc-43b1-9845-81dce6c1115e")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7a9ae5-e2a8-4890-bbc5-b609bfe24fc3")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5407d28a-c258-46b6-907c-e67408d80848")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73992bef-c082-433b-acab-2aaccd04c9b0")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777b0acc-ae92-4428-b83f-7aa11a1bfd31")
+	)
+	(wire
+		(pts
+			(xy 185.42 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef20c33-c97a-4d33-a7b6-f0dd23d8e135")
+	)
+	(wire
+		(pts
+			(xy 219.71 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8094112e-3d41-4f59-bc97-99f54ff1a461")
+	)
+	(wire
+		(pts
+			(xy 219.71 165.1) (xy 219.71 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872c0816-437a-4759-98f1-ea815ebedaa0")
+	)
+	(wire
+		(pts
+			(xy 209.55 160.02) (xy 212.09 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f36be5f-349f-4770-a838-0b426178d47b")
+	)
+	(wire
+		(pts
+			(xy 219.71 125.73) (xy 219.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f39412e-9403-430f-be7a-b9bc8ee2bf1e")
+	)
+	(wire
+		(pts
+			(xy 219.71 153.67) (xy 219.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4211be8-827e-4d16-a66a-19646d26f2d0")
+	)
+	(wire
+		(pts
+			(xy 196.85 160.02) (xy 201.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc78f14b-6915-4051-b573-78364df645fb")
+	)
+	(wire
+		(pts
+			(xy 250.19 142.24) (xy 250.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18980ce-aecf-43da-b931-ce9190f82ebe")
+	)
+	(wire
+		(pts
+			(xy 163.83 172.72) (xy 219.71 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36f6835-2447-4064-9739-f4879b4c55de")
+	)
+	(wire
+		(pts
+			(xy 241.3 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d863f37e-aa8c-4df0-b347-d3f8fa5c6345")
+	)
+	(wire
+		(pts
+			(xy 219.71 146.05) (xy 219.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1727245-1c1b-4986-bff6-ca32492f7e1c")
+	)
+	(wire
+		(pts
+			(xy 185.42 139.7) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae2bad8-00af-4aa8-ba56-56c5635abcf5")
+	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeae31ff-0f99-4c9a-b06e-ce3cc9386c8f")
+	)
+	(wire
+		(pts
+			(xy 219.71 125.73) (xy 266.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94ba703-8fa8-4f89-83e8-fccde8228475")
+	)
+	(wire
+		(pts
+			(xy 189.23 160.02) (xy 185.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa119e69-84a4-477c-b122-e36074ca0405")
+	)
+	(wire
+		(pts
+			(xy 250.19 139.7) (xy 242.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9d44cd-d272-4d74-a81c-3912c709c7aa")
+	)
+	(wire
+		(pts
+			(xy 185.42 149.86) (xy 185.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbc128e-4d00-4c02-9181-260b3cf859c6")
+	)
+	(text "Auto Download"
+		(exclude_from_sim no)
+		(at 203.454 53.594 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 7.62 7.62)
+				(thickness 0.9525)
+			)
+		)
+		(uuid "0b2195ef-fe91-4767-9dff-34473fa79f63")
+	)
+	(hierarchical_label "DTR"
+		(shape input)
+		(at 144.78 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1178c735-84e1-421d-acc2-f3b17272d291")
+	)
+	(hierarchical_label "CHIP_PU"
+		(shape input)
+		(at 266.7 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20068255-0e08-4016-8da8-ed980cc7eb52")
+	)
+	(hierarchical_label "GPIO9"
+		(shape input)
+		(at 241.3 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66a8de13-8381-4c8b-9014-98bb0db1586d")
+	)
+	(hierarchical_label "RTS"
+		(shape input)
+		(at 154.94 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "991e98a8-293e-4d28-8b3a-d9aa4e8e6b55")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847BDW1")
+		(at 182.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05861691-03c1-4af8-8606-8df644182fc2")
+		(property "Reference" "Q6"
+			(at 187.96 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847BDW1"
+			(at 187.96 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "BC847BDW1T1G"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C82368"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8a069536-a348-44df-bf17-29bffde74f68")
+		)
+		(pin "1"
+			(uuid "3ef6021e-599e-4b97-8877-35180f9a7400")
+		)
+		(pin "2"
+			(uuid "593504ae-c178-4737-8b05-1978df17fe06")
+		)
+		(pin "3"
+			(uuid "0f3431ac-f935-451b-bd98-59dfafd16040")
+		)
+		(pin "5"
+			(uuid "2065aaf8-fba6-4186-bf3b-26920dd4f357")
+		)
+		(pin "6"
+			(uuid "a56ed944-df99-4b6c-b4ff-210f4bb2c9ef")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 237.49 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0edba55c-0863-4948-a511-1e754306843a")
+		(property "Reference" "SW3"
+			(at 237.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SCAN_footprints:SW_SPST_PTS647_Sx38"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "PTS647SM38SMTR2 LFS"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "PTS647SM38SMTR2LFSCT-ND"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C&K"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f037160-ee1d-4c27-8d9c-ac4c518a6ce2")
+		)
+		(pin "2"
+			(uuid "3c990c23-da21-45f2-88ee-52ac505bc369")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 205.74 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a78a1c9-c610-453c-a7a8-cb5ea8471d36")
+		(property "Reference" "R28"
+			(at 205.74 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 205.74 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 205.994 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "RC0805JR-070RL"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C96345"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "645868d0-715f-4891-8666-d94b71882036")
+		)
+		(pin "1"
+			(uuid "ac0b2cdb-1021-4ede-960a-74b5b32b85cf")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847BDW1")
+		(at 217.17 160.02 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47aaa26d-656b-467c-813e-2db2acb6faf7")
+		(property "Reference" "Q6"
+			(at 222.25 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847BDW1"
+			(at 222.25 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 222.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "BC847BDW1T1G"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C82368"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4d94c67c-5065-4110-9a4e-4858ea15ae39")
+		)
+		(pin "1"
+			(uuid "02a7d8f7-2c5b-44f7-81e8-bc50a391bd9d")
+		)
+		(pin "2"
+			(uuid "c1739bb9-d611-47f4-b138-fb5e033b8206")
+		)
+		(pin "3"
+			(uuid "bc117d95-e944-4fc6-a63d-aa64967b5efb")
+		)
+		(pin "5"
+			(uuid "c85b6bbf-c05b-42f1-a9b1-35067432c253")
+		)
+		(pin "6"
+			(uuid "14572184-5f03-49be-8ce8-f076746ff172")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "Q6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 218.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58af71a0-71ba-4d8c-92cb-cb1c94ac9876")
+		(property "Reference" "#PWR044"
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6302212e-639e-497a-9db3-bb3ec2dd957b")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 171.45 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b987f7a-38a7-4ef0-9816-4adda39a46be")
+		(property "Reference" "R25"
+			(at 171.45 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 171.45 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 171.704 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "CRCW080510K0FKEAC"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C844814"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d3c6ccf-ac58-47be-a1da-0e8ba1b22287")
+		)
+		(pin "1"
+			(uuid "53bf450b-625f-4606-953d-4a5d3713cf01")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6110af27-07ea-477f-baf5-16c814aa58da")
+		(property "Reference" "SW2"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SCAN_footprints:SW_SPST_PTS647_Sx38"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "PTS647SM38SMTR2 LFS"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" ""
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "PTS647SM38SMTR2LFSCT-ND"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C&K"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab43b35-c7cf-482a-9a24-4fca168d7db2")
+		)
+		(pin "2"
+			(uuid "01d1a09f-535c-4bf9-b172-6c959d26a94e")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ffbf2d1-9c41-4ec7-85cb-319b13295617")
+		(property "Reference" "R26"
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 184.404 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "RC0805JR-070RL"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C96345"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "309292f0-7fa6-465f-9964-a61cd1ae214d")
+		)
+		(pin "1"
+			(uuid "3b47d08b-06c4-4f01-a844-4c5fcd840390")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bcfd9f7-e521-45d9-bb9e-b05fdfc0bbfa")
+		(property "Reference" "R29"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 223.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 218.694 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "RC0805JR-070RL"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C96345"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77caefe9-ed66-47be-bcb0-39e3544dd6dd")
+		)
+		(pin "1"
+			(uuid "bdb9c3bc-33a0-46a5-a6ea-8d5310531d64")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 193.04 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944bdab7-23a6-44fc-8158-abae91dcc57a")
+		(property "Reference" "R27"
+			(at 193.04 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.04 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 193.294 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1%"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_PN" "CRCW080510K0FKEAC"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part Number" "C844814"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b122b64-c0d2-41aa-b404-177a74e6f116")
+		)
+		(pin "1"
+			(uuid "50376259-f8e1-4bf7-9534-fc8c64f8175e")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 250.19 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc540389-271a-4bf9-8fda-0309d0b20f54")
+		(property "Reference" "#PWR045"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 250.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 250.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5270841e-7a77-4655-bd45-f1d101a5eacf")
+		)
+		(instances
+			(project "SCAN"
+				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e/06cd6600-0e10-4490-9a97-38ff4aa1bfbe"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

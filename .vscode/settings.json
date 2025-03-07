@@ -3,4 +3,17 @@
     "idf.flashType": "UART",
     "idf.enableCCache": true,
     "idf.saveBeforeBuild": true,
+    "files.associations": {
+        "esp_efuse.h": "c",
+        "wifi_init.h": "c",
+        "event_groups.h": "c",
+        "string.h": "c",
+        "sdkconfig.h": "c",
+        "stdio.h": "c",
+        "semphr.h": "c",
+        "firebase_http_client.h": "c",
+        "firebase_utils.h": "c",
+        "cjson_utils.h": "c"
+    },
+    "idf.pythonInstallPath": "/usr/bin/python3",
 }

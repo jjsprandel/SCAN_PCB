@@ -105,15 +105,21 @@ Here are the current statuses of our GitHub workflows:
      ```bash
      git clone https://github.com/jjsprandel/SCAN.git
      ```
-  2. Reopen Visual Studio Code in Container:
-  3. Compile the firmware:
+  2. Connect your ESP32 to your computer using USB-C. The Docker container is designed to automatically recognize the device and use port 4000 to communicate to the ESP32 for flashing.
+  3. Reopen Visual Studio Code in Container. This step requires having the Docker VS Code extension installed on your host machine. 
+  4. Within the container, on first run, configure the ESP-IDF extension from the list of commands that come with the ESP-IDF extension.
+     4a. Select "Use existing setup."
+     4b. The extension should automatically find the right tool paths and folders. Select the configuration option with the auto-filled paths.
+  5. Compile the firmware:
      ```bash
      idf.py build
-     ```
-  4. Flash the firmware:
+     ```  
+      5a. Alternatively, click the wrench button at the bottom of VS Code to build.
+  6. Flash the firmware:
      ```bash
      idf.py --port 'rfc2217://host.docker.internal:4000?ign_set_control' flash
      ```
+      6a. Alternatively, click the lightning button at the bottom of VS Code to flash.
 
   **Tips**:
   - Ensure your system meets the requirements listed in the [build prerequisites](link_to_prerequisites).
