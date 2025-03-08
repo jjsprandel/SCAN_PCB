@@ -6,9 +6,10 @@
 	(paper "B")
 	(title_block
 		(title "SCAN Schematic")
-		(date "2025-02-25")
+		(date "2025-03-06")
 		(rev "1.2")
-		(company "Senior Design Group 35")
+		(company "Group 35")
+		(comment 1 "UCF Senior Design")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -6910,7 +6911,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0.01"
 			(at 341.376 67.31 90)
 			(effects
 				(font
@@ -6918,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 343.154 67.056 90)
 			(effects
 				(font
@@ -6945,7 +6946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" "PA0805JR-470RL"
+		(property "MFR_PN" "WSL2010R0100FEA18"
 			(at 344.17 67.31 0)
 			(effects
 				(font
@@ -6954,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C858567"
+		(property "JLCPCB Part Number" "C844898"
 			(at 344.17 67.31 0)
 			(effects
 				(font
@@ -6972,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 344.17 67.31 0)
 			(effects
 				(font

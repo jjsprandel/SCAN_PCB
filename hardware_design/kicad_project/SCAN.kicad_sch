@@ -6,9 +6,10 @@
 	(paper "B")
 	(title_block
 		(title "SCAN Schematic")
-		(date "2025-02-25")
+		(date "2025-03-06")
 		(rev "1.2")
-		(company "Senior Design Group 35")
+		(company "Group 35")
+		(comment 1 "UCF Senior Design")
 	)
 	(lib_symbols
 		(symbol "Connector:Jack-DC"
@@ -3550,6 +3551,12 @@
 		(uuid "133b5168-ba9d-48a3-b1ba-674439aee5e7")
 	)
 	(junction
+		(at 45.72 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a76fc4-155a-4e6f-87f7-d5024ef70d9d")
+	)
+	(junction
 		(at 219.71 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3578,12 +3585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4528a145-bb6f-4d59-bd8a-993fcaafad84")
-	)
-	(junction
-		(at 45.72 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47cd3ade-8710-4dd0-9e9d-79b4db53613d")
 	)
 	(junction
 		(at 165.1 115.57)
@@ -3634,16 +3635,16 @@
 		(uuid "a12fc2f5-b6a5-4505-b9b1-5fd14ea6b9a6")
 	)
 	(junction
+		(at 45.72 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89bcd20-3ab2-4985-8e00-5cffbbd5c0a8")
+	)
+	(junction
 		(at 351.79 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa59ed40-4abe-42a3-bf9e-460698b16599")
-	)
-	(junction
-		(at 45.72 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c631bded-3021-456a-8152-0134cdff32f2")
 	)
 	(junction
 		(at 19.05 190.5)
@@ -4111,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 162.56) (xy 45.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba6b265-6543-42a4-bcbd-0f596cb9a86f")
+	)
+	(wire
+		(pts
 			(xy 128.27 153.67) (xy 128.27 156.21)
 		)
 		(stroke
@@ -4191,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 242.57) (xy 53.34 242.57)
+			(xy 45.72 247.65) (xy 55.88 247.65)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 246.38) (xy 53.34 246.38)
+			(xy 45.72 251.46) (xy 55.88 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4758,6 +4769,16 @@
 			(type default)
 		)
 		(uuid "80a76679-36c9-4b6e-8306-52df5911067f")
+	)
+	(wire
+		(pts
+			(xy 44.45 154.94) (xy 45.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eb8dac-3971-4093-86e4-f516fc34d989")
 	)
 	(wire
 		(pts
@@ -4848,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "8c39e127-ab7b-4e5b-b516-911d18f891a0")
-	)
-	(wire
-		(pts
-			(xy 45.72 162.56) (xy 44.45 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d38f44e-71c5-477b-9db7-a7bb033aebc9")
 	)
 	(wire
 		(pts
@@ -4971,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 238.76) (xy 53.34 238.76)
+			(xy 45.72 243.84) (xy 55.88 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5421,16 +5432,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 154.94) (xy 45.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d754efac-2be0-47e3-b005-15e2ede76b10")
-	)
-	(wire
-		(pts
 			(xy 177.8 153.67) (xy 194.31 153.67)
 		)
 		(stroke
@@ -5701,7 +5702,7 @@
 	)
 	(rectangle
 		(start 179.07 220.98)
-		(end 248.92 255.27)
+		(end 259.08 255.27)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5769,6 +5770,7 @@
 				(size 7.62 7.62)
 				(thickness 0.9525)
 			)
+			(href "https://github.com/jjsprandel/SCAN")
 		)
 		(uuid "17332adc-58b8-40bb-b93c-68223412af8d")
 	)
@@ -6034,7 +6036,7 @@
 		(uuid "4b7fd23a-1e4f-4907-a1ba-a5d24c5be46f")
 	)
 	(label "USB_D+"
-		(at 53.34 238.76 0)
+		(at 55.88 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6144,7 +6146,7 @@
 		(uuid "72be1419-1e42-4fc3-9ec6-1bcc39b027b5")
 	)
 	(label "USB_D-"
-		(at 53.34 242.57 0)
+		(at 55.88 247.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6562,7 +6564,7 @@
 		(uuid "d38226cf-bb69-41cd-bdf3-0b468cf9d7ef")
 	)
 	(label "USB_VBUS"
-		(at 53.34 246.38 0)
+		(at 55.88 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12266,8 +12268,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 234.95)
-		(size 22.86 15.24)
+		(at 26.67 240.03)
+		(size 19.05 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12278,7 +12280,7 @@
 		)
 		(uuid "a49f7a5e-6d61-468f-8fb7-df91262cabfc")
 		(property "Sheetname" "Protection Circuitry"
-			(at 20.32 234.2384 0)
+			(at 26.67 239.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12287,7 +12289,7 @@
 			)
 		)
 		(property "Sheetfile" "schematic/protection.kicad_sch"
-			(at 20.32 250.7746 0)
+			(at 26.67 255.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12297,7 +12299,7 @@
 			)
 		)
 		(pin "USB_D+" input
-			(at 43.18 238.76 0)
+			(at 45.72 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12309,7 @@
 			(uuid "6fc9ad87-6474-4b45-8fcf-2a14efc54dd2")
 		)
 		(pin "USB_D-" input
-			(at 43.18 242.57 0)
+			(at 45.72 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12319,7 @@
 			(uuid "35412c85-4c53-4b86-97b1-944bf57d7d80")
 		)
 		(pin "USB_VBUS" input
-			(at 43.18 246.38 0)
+			(at 45.72 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12506,7 @@
 	)
 	(sheet
 		(at 102.87 33.02)
-		(size 30.48 30.48)
+		(size 30.48 31.75)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12524,7 +12526,7 @@
 			)
 		)
 		(property "Sheetfile" "schematic/power_management.kicad_sch"
-			(at 102.87 64.0846 0)
+			(at 102.87 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

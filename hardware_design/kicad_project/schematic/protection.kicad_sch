@@ -6,9 +6,10 @@
 	(paper "B")
 	(title_block
 		(title "SCAN Schematic")
-		(date "2025-02-25")
+		(date "2025-03-06")
 		(rev "1.2")
-		(company "Senior Design Group 35")
+		(company "Group 35")
+		(comment 1 "UCF Senior Design")
 	)
 	(lib_symbols
 		(symbol "Power_Protection:TVS2200DRV"
@@ -1055,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 107.95) (xy 251.46 114.3)
+			(xy 203.2 93.98) (xy 203.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 130.81) (xy 251.46 129.54)
+			(xy 203.2 116.84) (xy 203.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 107.95) (xy 251.46 107.95)
+			(xy 194.31 93.98) (xy 203.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1142,7 @@
 	)
 	(hierarchical_label "USB_VBUS"
 		(shape input)
-		(at 242.57 107.95 180)
+		(at 194.31 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1219,7 +1220,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TVS2200DRV")
-		(at 251.46 121.92 0)
+		(at 203.2 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1228,7 +1229,7 @@
 		(fields_autoplaced yes)
 		(uuid "308ad999-ff52-42f6-a142-9fabc40f8d7a")
 		(property "Reference" "U9"
-			(at 255.27 120.6499 0)
+			(at 207.01 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1238,7 @@
 			)
 		)
 		(property "Value" "TVS2200DRV"
-			(at 255.27 123.1899 0)
+			(at 207.01 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1247,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 256.54 130.81 0)
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs2200.pdf"
-			(at 248.92 121.92 0)
+			(at 200.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1265,7 @@
 			)
 		)
 		(property "Description" "Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6"
-			(at 251.46 121.92 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1274,7 @@
 			)
 		)
 		(property "MFR_PN" "TVS2200DRVR"
-			(at 251.46 121.92 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1283,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C523793"
-			(at 251.46 121.92 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1292,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 251.46 121.92 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1301,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 251.46 121.92 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1341,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 251.46 130.81 0)
+		(at 203.2 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1349,7 +1350,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f8e25df-5b18-4038-91d9-4a2b6b044f6c")
 		(property "Reference" "#PWR092"
-			(at 251.46 137.16 0)
+			(at 203.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1359,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 251.46 135.89 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 130.81 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 130.81 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 251.46 130.81 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

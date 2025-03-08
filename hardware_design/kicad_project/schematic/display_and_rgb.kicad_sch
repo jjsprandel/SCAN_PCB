@@ -6,9 +6,10 @@
 	(paper "B")
 	(title_block
 		(title "SCAN Schematic")
-		(date "2025-02-25")
+		(date "2025-03-06")
 		(rev "1.2")
-		(company "Senior Design Group 35")
+		(company "Group 35")
+		(comment 1 "UCF Senior Design")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x07"
