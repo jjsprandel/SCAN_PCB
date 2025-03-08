@@ -1,34 +1,8 @@
-#include <stdio.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "freertos/queue.h"
-#include "freertos/event_groups.h"
-#include "esp_system.h"
-#include "driver/gpio.h"
-#include "esp_log.h"
-#include "led_strip.h"
-#include "sdkconfig.h"
-#include "nvs_flash.h"
-
 #include "main.h"
-#include "wifi_init.h"
-#include "ota.h"
-#include "firebase_http_client.h"
-#include "firebase_utils.h"
-
-#include "freertos/semphr.h"
-#include "esp_heap_task_info.h"
 
 #define BLINK_GPIO 8
 
-// Define states
-typedef enum {
-    STATE_WIFI_INIT,
-    STATE_WIFI_READY,
-    STATE_ERROR,
-} kiosk_state_t;
-
-static kiosk_state_t current_state = STATE_WIFI_INIT;
+static state_t current_state = STATE_IDLE;
 
 // Task Handles
 static TaskHandle_t blink_led_task_handle = NULL;
@@ -37,7 +11,7 @@ static TaskHandle_t ota_update_task_handle = NULL;
 static TaskHandle_t database_task_handle = NULL;
 
 // not static because it is being used in wifi_init.c as extern variable
-SemaphoreHandle_t wifi_init_semaphore = NULL;  // Semaphore to signal Wi-Fi init completion
+SemaphoreHandle_t wifi_init_semaphore = NULL; // Semaphore to signal Wi-Fi init completion
 
 static const char *TAG = "MAIN";
 
@@ -45,31 +19,38 @@ static uint8_t s_led_state = 0;
 
 static led_strip_handle_t led_strip;
 
-
 void blink_led_task(void *pvParameter)
 {
-    while(1) {
+    while (1)
+    {
         s_led_state = !s_led_state;
-        
-        if (current_state == STATE_WIFI_INIT) {
+
+        if (current_state == STATE_WIFI_INIT)
+        {
             vTaskDelay(200 / portTICK_PERIOD_MS);
         }
-        else {
+        else
+        {
             vTaskDelay(1200 / portTICK_PERIOD_MS);
         }
 
         /* If the addressable LED is enabled */
-        if (s_led_state) {
+        if (s_led_state)
+        {
             /* Set the LED pixel using RGB from 0 (0%) to 255 (100%) for each color */
-            if (current_state == STATE_WIFI_INIT) {
+            if (current_state == STATE_WIFI_INIT)
+            {
                 led_strip_set_pixel(led_strip, 0, 100, 0, 0);
             }
-            else {
+            else
+            {
                 led_strip_set_pixel(led_strip, 0, 0, 0, 50);
             }
             /* Refresh the strip to send data */
             led_strip_refresh(led_strip);
-        } else {
+        }
+        else
+        {
             /* Set all LED off to clear all pixels */
             led_strip_clear(led_strip);
         }
@@ -96,111 +77,159 @@ static void configure_led(void)
 }
 
 // Function to control state transitions and task management
-void state_control_task(void *pvParameter) {
-    while(1) {
+void state_control_task(void *pvParameter)
+{
+    while (1)
+    {
         // ESP_LOGI("Memory", "Free heap size: %lu bytes", (unsigned long)esp_get_free_heap_size());
 
-        switch (current_state) {
-            case STATE_WIFI_INIT:
-                // Start Wi-Fi init task if not already started
-                if (wifi_init_task_handle == NULL) {
-                    ESP_LOGI(TAG, "Starting Wi-Fi Init Task");
-                    xTaskCreate(wifi_init_task, "wifi_init_task", 4096, NULL, 4, &wifi_init_task_handle);
-                }
+        switch (current_state)
+        {
+        case STATE_WIFI_INIT:
+            // Start Wi-Fi init task if not already started
+            if (wifi_init_task_handle == NULL)
+            {
+                ESP_LOGI(TAG, "Starting Wi-Fi Init Task");
+                xTaskCreate(wifi_init_task, "wifi_init_task", 4096, NULL, 4, &wifi_init_task_handle);
+            }
 
-                // Start LED blinking task if not already running
-                if (blink_led_task_handle == NULL) {
-                    ESP_LOGI(TAG, "Starting Blink LED Task");
-                    xTaskCreate(blink_led_task, "blink_led_task", 1024, NULL, 2, &blink_led_task_handle);
-                }
+            // Start LED blinking task if not already running
+            if (blink_led_task_handle == NULL)
+            {
+                ESP_LOGI(TAG, "Starting Blink LED Task");
+                xTaskCreate(blink_led_task, "blink_led_task", 1024, NULL, 2, &blink_led_task_handle);
+            }
 
+            // Check if Wi-Fi init is completed (signaled by semaphore)
+            if (xSemaphoreTake(wifi_init_semaphore, portMAX_DELAY) == pdTRUE)
+            {
+                current_state = STATE_WIFI_READY; // Transition state outside of the task
+            }
 
+            break;
 
-                // Check if Wi-Fi init is completed (signaled by semaphore)
-                if (xSemaphoreTake(wifi_init_semaphore, portMAX_DELAY) == pdTRUE) {
-                    current_state = STATE_WIFI_READY;  // Transition state outside of the task
-                }
+        case STATE_WIFI_READY:
+            // Stop Wi-Fi task when ready
+            if (wifi_init_task_handle != NULL)
+            {
+                vTaskDelete(wifi_init_task_handle);
+                wifi_init_task_handle = NULL;
+            }
+            // ESP_LOGI(TAG, "Wi-Fi Initialized. Ready!");
 
-                break;
+            // if (blink_led_task_handle != NULL) {
+            //     vTaskDelete(blink_led_task_handle);
+            //     blink_led_task_handle = NULL;
+            // }
+            /*
+                            if (ota_update_task_handle == NULL) {
+                                ESP_LOGI(TAG, "Creating OTA update task");
+                                xTaskCreate(ota_update_fw_task, "OTA UPDATE TASK", 1024 * 4, NULL, 8, &ota_update_task_handle);
+                            }
+            */
 
-            case STATE_WIFI_READY:
-                // Stop Wi-Fi task when ready
-                if (wifi_init_task_handle != NULL) {
-                    vTaskDelete(wifi_init_task_handle);
-                    wifi_init_task_handle = NULL;
-                }
-                // ESP_LOGI(TAG, "Wi-Fi Initialized. Ready!");
+            // if (database_task_handle == NULL)
+            // {
+            //     const char *user_id = "6942069420";
+            //     ESP_LOGI(TAG, "Creating check-in task");
+            //     xTaskCreate(check_in_user_task, "CHECK IN TASK", 1024 * 12, (void *)user_id, 8, &database_task_handle);
+            // }
+            current_state = STATE_IDLE;
+            break;
+        case STATE_IDLE: // Wait until proximity is detected
+            // Insert proximity sensor logic here
+            current_state = STATE_USER_DETECTED;
+            break;
 
-                //if (blink_led_task_handle != NULL) {
-                //    vTaskDelete(blink_led_task_handle);
-                //    blink_led_task_handle = NULL;
-                //}
-/*
-                if (ota_update_task_handle == NULL) {
-                    ESP_LOGI(TAG, "Creating OTA update task");
-                    xTaskCreate(ota_update_fw_task, "OTA UPDATE TASK", 1024 * 4, NULL, 8, &ota_update_task_handle);
-                }
-*/
+        case STATE_USER_DETECTED: // Wait until NFC data is read or keypad press is entered
+            // Insert keypad logic here
+            char nfcUserID[ID_LEN];
+            bool nfcReadFlag = read_user_id(nfcUserID, 0);
 
+            if (nfcReadFlag)
+            {
+#ifdef MAIN_DEBUG
+                ESP_LOGI(MAIN_TAG, "User ID entered by %s", nfcReadFlag ? "NFC Transceiver" : "Keypad");
+#endif
+                memcpy(user_id, nfcUserID, ID_LEN);
+                current_state = STATE_DATABASE_VALIDATION;
+            }
+            break;
 
+        case STATE_DATABASE_VALIDATION: // Wait until validation is complete
+            // Insert database validation logic here
+            current_state = STATE_CHECK_IN;
+            break;
+        case STATE_CHECK_IN:
+            // Insert check-in logic here
+            current_state = STATE_IDLE;
+            break;
+        case STATE_CHECK_OUT:
+            // Insert check-out logic here
+            current_state = STATE_IDLE;
+            break;
+        case STATE_ADMIN_MODE:
+            // Insert admin mode logic here
+            current_state = STATE_IDLE;
+            break;
+        case STATE_VALIDATION_FAILURE:
+            // Insert validation failure logic here
+            current_state = STATE_USER_DETECTED;
+            break;
+        case STATE_ERROR:
+            // Handle error state - for now just stopping all tasks
+            if (wifi_init_task_handle != NULL)
+            {
+                vTaskDelete(wifi_init_task_handle);
+                wifi_init_task_handle = NULL;
+            }
+            if (blink_led_task_handle != NULL)
+            {
+                vTaskDelete(blink_led_task_handle);
+                blink_led_task_handle = NULL;
+            }
+            ESP_LOGE(TAG, "Error state reached!");
+            break;
 
-                if (database_task_handle == NULL) {
-                    const char *user_id = "6942069420";
-                    ESP_LOGI(TAG, "Creating check-in task");
-                    xTaskCreate(check_in_user_task, "CHECK IN TASK", 1024 * 12, (void *)user_id, 8, &database_task_handle);
-                }
-
-                break;
-
-            case STATE_ERROR:
-                // Handle error state - for now just stopping all tasks
-                if (wifi_init_task_handle != NULL) {
-                    vTaskDelete(wifi_init_task_handle);
-                    wifi_init_task_handle = NULL;
-                }
-                if (blink_led_task_handle != NULL) {
-                    vTaskDelete(blink_led_task_handle);
-                    blink_led_task_handle = NULL;
-                }
-                ESP_LOGE(TAG, "Error state reached!");
-                break;
-
-            default:
-                ESP_LOGW(TAG, "Unknown state encountered: %d", current_state);
-                break;
+        default:
+            ESP_LOGW(TAG, "Unknown state encountered: %d", current_state);
+            break;
         }
-    vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(500 / portTICK_PERIOD_MS);
     }
-    ESP_LOGI(TAG, "State control task finished");  // Should not reach here unless task is deleted
+    ESP_LOGI(TAG, "State control task finished"); // Should not reach here unless task is deleted
 }
 
 void app_main(void)
 {
     ESP_LOGI(TAG, "App Main Start");
 
-    //Initialize NVS
+    // Initialize NVS
     esp_err_t ret = nvs_flash_init();
-    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
+    {
         // 1.OTA app partition table has a smaller NVS partition size than the non-OTA
         // partition table. This size mismatch may cause NVS initialization to fail.
         // 2.NVS partition contains data in new format and cannot be recognized by this version of code.
         // If this happens, we erase NVS partition and initialize NVS again.
-      ESP_ERROR_CHECK(nvs_flash_erase());
-      ret = nvs_flash_init();
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        ret = nvs_flash_init();
     }
     ESP_ERROR_CHECK(ret);
     // ESP_ERROR_CHECK( heap_trace_init_standalone( trace_record, NUM_RECORDS ) );
     // ESP_LOGI("Memory", "STARTING FREE HEAP SIZE: %lu bytes", (long unsigned int)esp_get_free_heap_size());
     /* Configure the peripheral according to the LED type */
     configure_led();
+    nfc_init();
 
     // Create semaphore for signaling Wi-Fi init completion
     wifi_init_semaphore = xSemaphoreCreateBinary();
 
-    xTaskCreate(state_control_task, "state_control_task", 4096 * 2, NULL, 3, NULL);
+    xTaskCreate(state_control_task, "state_control_task", 4096 * 2, NULL, 5, NULL);
 
-    while(1){
-        vTaskDelay(4000 / portTICK_PERIOD_MS);
+    while (1)
+    {
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 }
 

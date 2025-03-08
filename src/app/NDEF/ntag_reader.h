@@ -6,8 +6,8 @@
 #include <esp_log_buffer.h>
 
 // SPI Pin Configuration
-#define PN532_SCK 21  // 10
-#define PN532_MOSI 22 // 7
+#define PN532_SCK 10 // 10
+#define PN532_MOSI 7 // 7
 #define PN532_SS 20
 #define PN532_MISO 2
 
