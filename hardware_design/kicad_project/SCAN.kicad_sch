@@ -3821,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 229.87) (xy 226.06 232.41)
+			(xy 214.63 229.87) (xy 214.63 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 229.87) (xy 250.19 232.41)
+			(xy 238.76 229.87) (xy 238.76 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 229.87) (xy 217.17 232.41)
+			(xy 205.74 229.87) (xy 205.74 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4191,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 250.19) (xy 53.34 250.19)
+			(xy 43.18 242.57) (xy 53.34 242.57)
 		)
 		(stroke
 			(width 0)
@@ -4401,16 +4401,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 242.57) (xy 53.34 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1c7f7b-9711-48eb-92c2-ebfe9b4bcb11")
-	)
-	(wire
-		(pts
 			(xy 224.79 190.5) (xy 224.79 193.04)
 		)
 		(stroke
@@ -4561,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 229.87) (xy 196.85 232.41)
+			(xy 185.42 229.87) (xy 185.42 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4671,16 +4661,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 229.87) (xy 182.88 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76375895-144b-493c-8319-07c36abbdd1c")
-	)
-	(wire
-		(pts
 			(xy 255.27 143.51) (xy 274.32 143.51)
 		)
 		(stroke
@@ -4711,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 254) (xy 53.34 254)
+			(xy 43.18 246.38) (xy 53.34 246.38)
 		)
 		(stroke
 			(width 0)
@@ -4991,7 +4971,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 246.38) (xy 53.34 246.38)
+			(xy 43.18 238.76) (xy 53.34 238.76)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 229.87) (xy 205.74 232.41)
+			(xy 194.31 229.87) (xy 194.31 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5541,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 229.87) (xy 237.49 232.41)
+			(xy 226.06 229.87) (xy 226.06 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5628,16 +5608,6 @@
 			(type default)
 		)
 		(uuid "ec3ec95f-f8fe-4cee-acf7-a20306007873")
-	)
-	(wire
-		(pts
-			(xy 43.18 238.76) (xy 53.34 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edaa6156-6176-4bd8-8d24-577a0eaf4d71")
 	)
 	(wire
 		(pts
@@ -5731,7 +5701,7 @@
 	)
 	(rectangle
 		(start 179.07 220.98)
-		(end 259.08 255.27)
+		(end 248.92 255.27)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5877,7 +5847,7 @@
 		(uuid "0786338c-da6a-4ae5-8e64-baa210b31ce9")
 	)
 	(label "BAT+"
-		(at 217.17 232.41 0)
+		(at 205.74 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6052,17 +6022,6 @@
 		)
 		(uuid "464cb333-5bd1-4773-8670-667b127b6a20")
 	)
-	(label "USB_CC2"
-		(at 53.34 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48995d0c-ac9a-4cc8-af9f-ec39102498f8")
-	)
 	(label "SPI_CS"
 		(at 292.1 90.17 180)
 		(fields_autoplaced yes)
@@ -6074,19 +6033,8 @@
 		)
 		(uuid "4b7fd23a-1e4f-4907-a1ba-a5d24c5be46f")
 	)
-	(label "USB_CC1"
-		(at 53.34 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4eb586da-127a-48e9-987c-67263bde9184")
-	)
 	(label "USB_D+"
-		(at 53.34 246.38 0)
+		(at 53.34 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6196,7 +6144,7 @@
 		(uuid "72be1419-1e42-4fc3-9ec6-1bcc39b027b5")
 	)
 	(label "USB_D-"
-		(at 53.34 250.19 0)
+		(at 53.34 242.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6295,7 +6243,7 @@
 		(uuid "801b2694-45ce-4b58-9e17-014af6243cf1")
 	)
 	(label "PV_IN"
-		(at 205.74 232.41 0)
+		(at 194.31 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6405,7 +6353,7 @@
 		(uuid "a4252db0-191f-4327-a6f2-ac0ee0704a8d")
 	)
 	(label "VDC"
-		(at 196.85 232.41 0)
+		(at 185.42 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6526,7 +6474,7 @@
 		(uuid "b6fe4620-0fe0-4ee3-8ab5-679c8bc766c9")
 	)
 	(label "SYSTEM"
-		(at 226.06 232.41 0)
+		(at 214.63 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6591,17 +6539,6 @@
 		)
 		(uuid "c39c5d17-19d0-4653-89b1-7bae158ab077")
 	)
-	(label "USB_VBUS"
-		(at 182.88 232.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5109ff4-e64b-4db1-8af8-f166fdcb8535")
-	)
 	(label "I2C_SCL"
 		(at 355.6 35.56 180)
 		(fields_autoplaced yes)
@@ -6625,7 +6562,7 @@
 		(uuid "d38226cf-bb69-41cd-bdf3-0b468cf9d7ef")
 	)
 	(label "USB_VBUS"
-		(at 53.34 254 0)
+		(at 53.34 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6691,7 +6628,7 @@
 		(uuid "e53e1737-3fea-469f-900b-d3652660fa7f")
 	)
 	(label "5V_SYS"
-		(at 250.19 232.41 0)
+		(at 238.76 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6746,7 +6683,7 @@
 		(uuid "fbcdb740-3a86-474b-9d01-e987a6dd64fa")
 	)
 	(label "3.3V_SYS"
-		(at 237.49 232.41 0)
+		(at 226.06 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7122,15 +7059,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 226.06 229.87 0)
+		(at 214.63 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d3adc03-58da-4325-9574-b69b9c1275ce")
-		(property "Reference" "TP5"
-			(at 224.282 224.282 0)
+		(property "Reference" "TP4"
+			(at 212.852 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7076,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 228.6 227.8379 0)
+			(at 217.17 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7086,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 231.14 229.87 0)
+			(at 219.71 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 229.87 0)
+			(at 219.71 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7104,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 226.06 229.87 0)
+			(at 214.63 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7113,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 226.06 229.87 0)
+			(at 214.63 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7122,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 226.06 229.87 0)
+			(at 214.63 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7131,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 226.06 229.87 0)
+			(at 214.63 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7140,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 226.06 229.87 0)
+			(at 214.63 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7154,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7979,15 +7916,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 250.19 229.87 0)
+		(at 238.76 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2bfe677e-60e4-4292-937e-6b6165e17d4e")
-		(property "Reference" "TP7"
-			(at 248.412 224.282 0)
+		(property "Reference" "TP6"
+			(at 236.982 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7933,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 252.73 227.8379 0)
+			(at 241.3 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +7943,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 255.27 229.87 0)
+			(at 243.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +7952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 229.87 0)
+			(at 243.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +7961,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 229.87 0)
+			(at 238.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +7970,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 250.19 229.87 0)
+			(at 238.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +7979,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 250.19 229.87 0)
+			(at 238.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +7988,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 250.19 229.87 0)
+			(at 238.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +7997,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 250.19 229.87 0)
+			(at 238.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +8011,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8677,119 +8614,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 182.88 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "598e40be-c851-4231-b38e-4d501d8a04ed")
-		(property "Reference" "TP1"
-			(at 181.102 224.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RED"
-			(at 185.42 227.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 187.96 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 182.88 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" " C2906765"
-			(at 182.88 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR_PN" "5010"
-			(at 182.88 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 182.88 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 182.88 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b79477bd-93f9-4c7b-b087-c2f2d75a89e2")
-		)
-		(instances
-			(project "SCAN"
-				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TestPoint_1")
-		(lib_id "Connector:TestPoint")
-		(at 237.49 229.87 0)
+		(at 226.06 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a590d52-e490-4bcf-8026-9c7adc512a31")
-		(property "Reference" "TP6"
-			(at 235.712 224.282 0)
+		(property "Reference" "TP5"
+			(at 224.282 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8631,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 240.03 227.8379 0)
+			(at 228.6 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8641,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 242.57 229.87 0)
+			(at 231.14 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 229.87 0)
+			(at 231.14 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8659,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 229.87 0)
+			(at 226.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8668,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 237.49 229.87 0)
+			(at 226.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8677,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 237.49 229.87 0)
+			(at 226.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +8686,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 237.49 229.87 0)
+			(at 226.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +8695,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 237.49 229.87 0)
+			(at 226.06 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8709,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9955,15 +9788,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 217.17 229.87 0)
+		(at 205.74 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "88a43c3d-d4f1-416b-ab27-a71f071c74d8")
-		(property "Reference" "TP4"
-			(at 215.392 224.282 0)
+		(property "Reference" "TP3"
+			(at 203.962 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +9805,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 219.71 227.8379 0)
+			(at 208.28 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +9815,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 222.25 229.87 0)
+			(at 210.82 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +9824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 229.87 0)
+			(at 210.82 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +9833,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 229.87 0)
+			(at 205.74 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +9842,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 217.17 229.87 0)
+			(at 205.74 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +9851,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 217.17 229.87 0)
+			(at 205.74 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +9860,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 217.17 229.87 0)
+			(at 205.74 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +9869,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 217.17 229.87 0)
+			(at 205.74 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +9883,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10818,15 +10651,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 205.74 229.87 0)
+		(at 194.31 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bf192a74-8500-4e3c-9899-b28e87f2e163")
-		(property "Reference" "TP3"
-			(at 203.962 224.282 0)
+		(property "Reference" "TP2"
+			(at 192.532 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,7 +10668,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 208.28 227.8379 0)
+			(at 196.85 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +10678,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 210.82 229.87 0)
+			(at 199.39 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 229.87 0)
+			(at 199.39 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10696,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 229.87 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10705,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 205.74 229.87 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10714,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 205.74 229.87 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10723,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 205.74 229.87 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10732,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 205.74 229.87 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +10746,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10922,15 +10755,15 @@
 	(symbol
 		(lib_name "TestPoint_1")
 		(lib_id "Connector:TestPoint")
-		(at 196.85 229.87 0)
+		(at 185.42 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c7fec616-e60b-44e4-8822-efcf26264ff3")
-		(property "Reference" "TP2"
-			(at 195.072 224.282 0)
+		(property "Reference" "TP1"
+			(at 183.642 224.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +10772,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 199.39 227.8379 0)
+			(at 187.96 227.8379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10782,7 @@
 			)
 		)
 		(property "Footprint" "SCAN_footprints:TP_5010"
-			(at 201.93 229.87 0)
+			(at 190.5 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 229.87 0)
+			(at 190.5 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10800,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 196.85 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +10809,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" " C2906765"
-			(at 196.85 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +10818,7 @@
 			)
 		)
 		(property "MFR_PN" "5010"
-			(at 196.85 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +10827,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 196.85 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +10836,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 196.85 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +10850,7 @@
 		(instances
 			(project "SCAN"
 				(path "/888b7abf-3697-4f84-b8b9-46ec94b2d60e"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12434,7 +12267,7 @@
 	)
 	(sheet
 		(at 20.32 234.95)
-		(size 22.86 22.86)
+		(size 22.86 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12454,7 +12287,7 @@
 			)
 		)
 		(property "Sheetfile" "schematic/protection.kicad_sch"
-			(at 20.32 258.3946 0)
+			(at 20.32 250.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,28 +12296,8 @@
 				(hide yes)
 			)
 		)
-		(pin "USB_CC1" input
-			(at 43.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e2632fef-4a85-410c-88fc-be0935202110")
-		)
-		(pin "USB_CC2" input
-			(at 43.18 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "da1397b0-49cb-471d-aa51-36cf001d0538")
-		)
 		(pin "USB_D+" input
-			(at 43.18 246.38 0)
+			(at 43.18 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +12307,7 @@
 			(uuid "6fc9ad87-6474-4b45-8fcf-2a14efc54dd2")
 		)
 		(pin "USB_D-" input
-			(at 43.18 250.19 0)
+			(at 43.18 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12317,7 @@
 			(uuid "35412c85-4c53-4b86-97b1-944bf57d7d80")
 		)
 		(pin "USB_VBUS" input
-			(at 43.18 254 0)
+			(at 43.18 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
