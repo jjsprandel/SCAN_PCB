@@ -1,1 +1,0 @@
-void ota_update_fw_task(void *pvParameter);

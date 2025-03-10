@@ -1,6 +1,0 @@
-* @jjsprandel
-
-src/app/database/cJSON_Utils.c @deandrehendrix
-src/app/database/cJSON_Utils.h @deandrehendrix
-src/app/database/cJSON.c @deandrehendrix
-src/app/database/cJSON.h @deandrehendrix
