@@ -3898,7 +3898,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C6404631"
+		(property "JLCPCB Part Number" ""
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Würth Elektronik"
+		(property "Manufacturer_Name" "Wurth Elektronik"
 			(at 214.63 106.68 0)
 			(effects
 				(font

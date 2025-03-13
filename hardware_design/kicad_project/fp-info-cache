@@ -1,4 +1,4 @@
-24239753521933262
+24243312164478648
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90054,6 +90054,20 @@ TP_5011
 0
 1
 1
+SCAN_footprints
+TRANS_CSD17575Q3
+
+
+0
+9
+9
+SCAN_footprints
+TRANS_CSD17581Q3A
+
+
+0
+12
+5
 SCAN_footprints
 USB4110-GF-A_GCT
 

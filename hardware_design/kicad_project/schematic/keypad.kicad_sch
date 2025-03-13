@@ -1634,7 +1634,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C2879047"
+		(property "JLCPCB Part Number" ""
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -1652,7 +1652,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" ""
+		(property "DigiKey Part Number" "296-13109-5-ND"
 			(at 215.9 127 0)
 			(effects
 				(font

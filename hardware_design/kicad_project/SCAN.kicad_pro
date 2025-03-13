@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.78,
-          "height": 1.13,
-          "width": 1.13
+          "drill": 0.2,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -606,6 +606,7 @@
       "5V_SYS": "rgb(0, 194, 0)",
       "AGND": "rgb(0, 132, 132)",
       "Net-(Q5-D)": "rgb(255, 0, 0)",
+      "Net-(Q5-D-Pad5)": "rgb(255, 0, 0)",
       "PGND": "rgb(70, 89, 255)"
     },
     "netclass_assignments": null,
@@ -620,9 +621,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "pdf/",
-      "pos_files": "",
+      "netlist": "../../../../../Program Files/KiCad/8.0/",
+      "plot": "../manufacturing/jlcpcb_upload/",
+      "pos_files": "../manufacturing/assembly/pick_and_place/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -632,7 +633,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "rev_1.0\\SCAN_PCB_BOM_Rev_1.0.csv",
+    "bom_export_filename": "..\\manufacturing\\assembly\\bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -648,7 +649,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -732,13 +733,7 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "JLCPCB Part Number",
           "name": "JLCPCB Part Number",
           "show": true
@@ -785,7 +780,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "drawing_sheet_template.kicad_wks",
-    "plot_directory": "pdf/",
+    "plot_directory": "../exports/schematic/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

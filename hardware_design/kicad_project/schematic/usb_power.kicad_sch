@@ -6392,16 +6392,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NZH10C,115"
-			(at -473 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "MFR_PN" "NZH10C,115"
 			(at 120.65 33.02 0)
 			(effects
@@ -7310,16 +7300,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DMP3056LSD-13"
-			(at 254 645.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "MFR_PN" "IRF9358TRPBF"
 			(at 232.41 50.8 0)
 			(effects
@@ -7797,16 +7777,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CYPD3177-24LQXQ"
-			(at 224.79 747.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "MFR_PN" "CYPD3177-24LQXQT"
 			(at 187.96 162.56 0)
 			(effects
@@ -8177,16 +8147,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 369.57 972.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "MFR_PN" "NTR4503NT1G"
 			(at 358.14 173.99 0)
 			(effects
@@ -8353,7 +8313,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" "RK73H1ETTP4992F"
+		(property "MFR_PN" "RC0402FR-0749K9L"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -8362,7 +8322,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C173335"
+		(property "JLCPCB Part Number" "C137969"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -8380,7 +8340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KOA Speer Electronics, Inc."
+		(property "Manufacturer_Name" "YAGEO"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -10516,7 +10476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR_PN" "RK73H1ETTP4992F"
+		(property "MFR_PN" "RC0402FR-0749K9L"
 			(at 254 113.03 0)
 			(effects
 				(font
@@ -10525,7 +10485,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C173335"
+		(property "JLCPCB Part Number" "C137969"
 			(at 254 113.03 0)
 			(effects
 				(font
@@ -10543,7 +10503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KOA Speer Electronics, Inc."
+		(property "Manufacturer_Name" "YAGEO"
 			(at 254 113.03 0)
 			(effects
 				(font
